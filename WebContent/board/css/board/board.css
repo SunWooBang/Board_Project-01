@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/**
+* 부트스트랩 이외에 적용할 CSS
+* @author 방선우
+* @since 2021.01.25
+*/
+
+.align-left{
+	text-align: left;
+}
+
+.align-right{
+	text-align: right;
+}
+
+.align-center{
+	text-align: center;
+}
+
+.titleHeader {
+	float: center;
+	margin-left: 40px;
+	margin-top: 10px;
+}
+
+.mainTitle{
+	margin-left:-0px;
+	margin-top:0px;
+}
+
+.mainTitleLength{
+	text-overflow : ellipsis;
+	overflow : hidden;
+	text-align: left;
+}
+
+.mainNameLength{
+	text-overflow : ellipsis;
+	overflow : hidden;
+	text-align: center;
+}
+
+.mainSelectBox{
+	margin-left: 1060px;
+	margin-right: 237px;
+}
+
+.writeHeight{
+	height: 800px;
+}
+
+.searchType {
+	width:115px; 
+	height:34px; 
+	float: right; 
+	margin-right:480px; 
+	margin-bottom:-38px;
+}
+
+.btnSearch{
+	width: 60px;
+	margin-left: 5px;
+}
+
+.curpage{
+	margin-top: -20px;
+}
+
+.curpageBtn{
+	background-color: #3b662c;
+  	border-color: #395e2d;
+}
+
+.boardMainTable{
+	text-align: center;
+	border: 3px solid #dddddd;
+	border-bottom:3px solid #dddddd;
+	table-layout: fixed;
+}
+
+.boardIdTh{
+	background-color: #eeeeee; 
+	text-align: center; 
+	width:100px;
+}
+
+.boardViewTh{
+	background-color: #eeeeee; 
+	text-align: center; 
+	width:70px;
+}
+
+.boardTh{
+	background-color: #eeeeee;
+	text-align: center;
+}
+
+.boardWriterTh{
+	width:120px;
+	text-align: center;
+}
+
+.comNum{
+	color: green;
+	font-size: 12px;
+}
+
+.pagingMargin-left{
+	text-align: center;
+	margin-left:60px;
+
+}
+
+
+.pagingNext{
+	margin:auto;
+}
+
+.updateForm{
+	text-align: center;
+	border: 1px solid #dddddd;
+
+}
+
+.updateHeader{
+	background-color: #eeeeee;
+}
+
+.updateHeaderAllg{
+	text-align: center;
+}
+
+.updateContent{
+	height: 350px;
+	width:1152px;
+	display: block;
+  	padding: 6px 12px;
+  	font-size: 14px;
+  	line-height: 1.42857143;
+  	color: #555;
+  	background-color: #fff;
+  	background-image: none;
+  	border: 1px solid #ccc;
+  	border-radius: 4px;
+  	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    	      box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    	   -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        	  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.updateListBtn{
+	margin-left: 1020px;
+}
+
+.updateSubmitBtn{
+	width: 88px;
+}
+
+.writePw{
+	width: 200px;
+}
+
+.writeSubmitBtn{
+	width: 75px;
+}
+
+
+.viewTable{
+	text-align: left;
+}
+
+.viewTableHeight{
+	height: 200px;
+}
+
+.viewdiv{
+	margin-bottom: 30px;
+}
+
+.viewPercent{
+	width: 20%;
+}
+
+.viewList{
+	margin-left: 985px;
+}
+
+.viewcomDiv{
+	width: 1170px;
+	margin-left: 0px;
+}
+
+.viewcomTable{
+	border: 1px solid #dddddd;
+	table-layout: fixed;
+}
+
+.viewTitle{
+	font-size:20px;
+}
+
+.viewName{
+	font-size:14px;
+}
+
+.viewRegtime{
+	font-size:10px;
+}
+
+
+.commentText{
+	height: 60px;
+	width:890px;
+	margin-left: -50px;
+}
+
+.commentWrite{
+	width: 80px;
+	height: 60px;
+	float: right;
+	margin-left: 285px;
+	margin-top: 5px;
+}
+
+.commentWidth01{
+	width: 3px;
+}
+
+.commentWidth02{
+	width: 20px;
+}
+
+.commentWidth03{
+	width: 100px;
+}
+
+.commentWidth04{
+	width: 24px;
+}
+
+.commentDelBtn{
+	float:right;
+	width: 60px;
+	font-size:10px;
+}
+
+.commentModify{
+	display: none;
+}
+
+.commentContent{
+	height: 30px;
+	width:700px;
+	font-size:14px;
+}
+
+.commentName{
+	text-align:center;
+}
+
+.commentNo{
+	text-align:center;
+}
+
+.passForm{
+	margin-top:330px;
+	margin-left:700px;
+}
+
+.passDiv{
+	margin-left:14px;
+}
+
+.passTable{
+	text-align: center;
+	border: 1px solid #dddddd;
+}
+
+.alert {
+     color: #ef0003;
+     font-size: 12px;
+     margin-top: -10px;
+     margin-left: -10px;
+     margin-bottom: -5px;
+     height: 4px;
+     text-align:left;
+     display: none;
+   }
+   
+   
+.fileAddBtn{
+	width:90px;
+	float:left;
+}
+   
+.fileBtn{
+	width:200px;
+	float:left
+}
+
+.fileDelBtn{
+	width:92px;
+	height:24px;
+	margin-left:10px;
+	float:left;
+}
